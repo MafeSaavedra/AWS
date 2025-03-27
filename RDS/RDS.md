@@ -81,6 +81,26 @@ Es un tipo de **escalado horizontal**, que permite dividir una base de datos en 
 Un ** Red Social** que maneja miles de usuarios puede dividir la bases de datos en shards según la ubicación geográfica.
 
 ---
+## 🔹 **Ciclo de Vida de una Transacción**  
+
+Una **transacción** es un conjunto de pasos que deben completarse para garantizar la **integridad de los datos**. Sigue un ciclo de vida estructurado para evitar inconsistencias.  
+
+### 📌 **Fases de una Transacción**  
+
+1️⃣ **Inicio (BEGIN TRANSACTION)**  
+   🔹 La transacción comienza y el sistema bloquea los recursos necesarios.  
+
+2️⃣ **Ejecución de Operaciones**  
+   🔹 Se realizan las operaciones: `INSERT`, `UPDATE`, `DELETE`, `SELECT`.  
+
+3️⃣ **Validación**  
+   🔹 Se verifica que los datos sean correctos y cumplan las reglas de integridad.  
+
+4️⃣ **Confirmación o Reversión**  
+   ✅ **Commit:** Si todo es correcto, los cambios se guardan permanentemente.  
+   ❌ **Rollback:** Si hay un error, se revierte todo y la base de datos regresa a su estado inicial.  
+
+---
 
 ## 🔹 **Base de Datos OLTP (Online Transaction Processing)**  
 Es un tipo de **Base de datos**, optimizada para manejar transacciones en **tiempo real**.
@@ -93,6 +113,28 @@ Es un tipo de **Base de datos**, optimizada para manejar transacciones en **tiem
 Cuando compras en linea, el un **e-commerce**, dicho aplicativo, usa una OLTP, para registrar y actualizar el inventario.
 
 ---
+
+## 🔹 **¿Qué es un ACID y como se relaciona con una OLTP?** 
+ACID es un conjunto de propiedades que garantizan que una base de datos transaccional sea **confiable y segura**. Estas propiedades son esenciales en sistemas que manejan muchas transacciones en tiempo real, como los bancos o e-commerce.
+
+## 🔹 Propiedades ACID  
+
+1️⃣ **Atomicidad**  
+👉 Una transacción es **todo o nada**. Si falla, se revierte todo para evitar datos corruptos.  
+🔹 *Ejemplo:* Al transferir dinero, si hay un error, el dinero no se descuenta ni se deposita.  
+
+2️⃣ **Consistencia**  
+👉 La base de datos siempre mantiene **reglas válidas** y datos correctos.  
+🔹 *Ejemplo:* No puedes transferir más dinero del que tienes.  
+
+3️⃣ **Aislamiento**  
+👉 Las transacciones ocurren **sin interferirse** entre sí.  
+🔹 *Ejemplo:* Si dos personas compran el mismo producto a la vez, la base de datos gestiona cada compra correctamente.  
+
+4️⃣ **Durabilidad**  
+👉 Una vez confirmada, una transacción **se guarda permanentemente**, incluso tras un fallo del sistema.  
+🔹 *Ejemplo:* Si un banco confirma una transferencia y hay un apagón, el dinero sigue en la cuenta destino.  
+
 
   # 🛠️ **¿Qué son los Linters y para qué se usan?**  
 
