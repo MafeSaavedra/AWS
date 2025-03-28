@@ -158,7 +158,19 @@ El **teorema CAP** dice que en un sistema distribuido solo puedes garantizar **d
 
 1️⃣ **Consistencia (C)** → Todos los datos están actualizados en todos los nodos.  
 2️⃣ **Disponibilidad (A)** → Siempre hay respuesta, aunque algunos nodos fallen.  
-3️⃣ **Tolerancia a particiones (P)** → El sistema sigue funcionando aunque haya problemas en la red. 
+3️⃣ **Tolerancia a particiones (P)** → El sistema sigue funcionando aunque haya problemas en la red.
+
+ ### 🚀 **Elecciones posibles:**  
+- **CP (Consistencia + Particiones toleradas)** → Datos siempre correctos, pero puede haber demoras.  
+- **AP (Disponibilidad + Particiones toleradas)** → Siempre responde, pero los datos pueden tardar en actualizarse.  
+- **CA (Consistencia + Disponibilidad)** → No es posible en sistemas distribuidos reales.  
+
+📌 **Ejemplo:**  
+🔹 **WhatsApp (AP)** → Siempre responde, pero los mensajes pueden tardar en sincronizarse.  
+🔹 **Google Spanner (CP)** → Siempre tiene datos correctos, pero puede ser más lento. 
+
+---
+
 
 # 🛠️ **¿Qué son los Linters y para qué se usan?**  
 
