@@ -21,7 +21,8 @@ El propósito de esta práctica es establecer una conexión con la base de datos
 ## Evidencia  
 A continuación, se muestra una captura de pantalla de la conexión establecida y la consulta realizada en la base de datos:  
 
-![Evidencia de conexión y consulta](DEM0-1/Evidencia/ConexionYConsultaBD.jpg)  
+![Evidencia de conexión y consulta](Evidencia/ConexionYConsultaBD.jpg)
+  
 
 ## Requisitos  
 Para ejecutar este archivo SQL, se recomienda tener:  
