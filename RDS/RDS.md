@@ -152,6 +152,13 @@ ACID es un conjunto de propiedades que garantizan que una base de datos transacc
 🔹 *Ejemplo:* Si un banco confirma una transferencia y hay un apagón, el dinero sigue en la cuenta destino.  
 
 ---
+## 🔹 **Teorema CAP**  
+
+El **teorema CAP** dice que en un sistema distribuido solo puedes garantizar **dos** de estas tres cosas al mismo tiempo:  
+
+1️⃣ **Consistencia (C)** → Todos los datos están actualizados en todos los nodos.  
+2️⃣ **Disponibilidad (A)** → Siempre hay respuesta, aunque algunos nodos fallen.  
+3️⃣ **Tolerancia a particiones (P)** → El sistema sigue funcionando aunque haya problemas en la red. 
 
 # 🛠️ **¿Qué son los Linters y para qué se usan?**  
 
