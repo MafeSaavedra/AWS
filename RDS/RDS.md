@@ -119,9 +119,14 @@ Es un tipo de **base de datos**, optimizada para el análisis de grandes volúme
 ✅ **Características:**  
 - Diseñada para consultas complejas y análisis de datos.  
 - Se usa en inteligencia de negocios (BI), reportes y minería de datos. 
+- Los datos No están Normalizados. 
+- Se rigen bajo dos modelos : **estrella y copo de nive**. 
+- El almacenamiento se genera por columnas. 
 
 📌 **Ejemplo:**  
-Una empresa de **retail** usa una OLAP para analizar las tendencias de ventas de los últimos 5 años y predecir la demanda futura..  
+Una empresa de **retail** usa una OLAP para analizar las tendencias de ventas de los últimos 5 años y predecir la demanda futura. 
+
+**Amazon Redshift** → Analiza grandes volúmenes de datos para generar reportes y tendencias.  
 
 ---
 
