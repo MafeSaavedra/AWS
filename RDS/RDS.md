@@ -113,6 +113,17 @@ Es un tipo de **base de datos**, optimizada para manejar transacciones en **tiem
 Cuando compras en línea en un **e-commerce**, este sistema usa una **OLTP** para registrar y actualizar el inventario en tiempo real.  
 
 ---
+## 🔹 **Base de Datos OLAP (Online Analitycs Processing)**  
+Es un tipo de **base de datos**, optimizada para el análisis de grandes volúmenes de datos históricos.
+
+✅ **Características:**  
+- Diseñada para consultas complejas y análisis de datos.  
+- Se usa en inteligencia de negocios (BI), reportes y minería de datos. 
+
+📌 **Ejemplo:**  
+Una empresa de **retail** usa una OLAP para analizar las tendencias de ventas de los últimos 5 años y predecir la demanda futura..  
+
+---
 
 ## 🔹 **¿Qué es ACID y cómo se relaciona con una OLTP?**  
 ACID es un conjunto de propiedades que garantizan que una base de datos transaccional sea **confiable y segura**. Estas propiedades son esenciales en sistemas que manejan muchas transacciones en tiempo real, como los bancos o e-commerce.  
