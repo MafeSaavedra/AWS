@@ -38,7 +38,6 @@ Piensa en **RDS** como una base de datos lista para usar. En lugar de instalar y
 
 ---
 
-
 # ⚡ Tipos de Escalabilidad  
 
 ## 🔹 **Escalamiento Horizontal**  
@@ -70,24 +69,25 @@ Un **sistema bancario** que maneja miles de transacciones por segundo, donde se 
 
 ---
 
-## 🔹 **Escalamiento Sharding**  
-Es un tipo de **escalado horizontal**, que permite dividir una base de datos en partes más pequeñas llamadas shards
+## 🔹 **Escalamiento con Sharding**  
+Es un tipo de **escalado horizontal**, que permite dividir una base de datos en partes más pequeñas llamadas *shards*.  
 
 ✅ **Beneficios:**  
-- Reduce la carga en cada servidor y evita cuellos de botella.
-- Si un shard falla el resto de bases de datos sigue funcionando
+- Reduce la carga en cada servidor y evita cuellos de botella.  
+- Si un *shard* falla, el resto de la base de datos sigue funcionando.  
 
 📌 **Ejemplo:**  
-Un ** Red Social** que maneja miles de usuarios puede dividir la bases de datos en shards según la ubicación geográfica.
+Una **red social** que maneja millones de usuarios puede dividir su base de datos en *shards* según la ubicación geográfica.  
 
 ---
+
 ## 🔹 **Ciclo de Vida de una Transacción**  
 
 Una **transacción** es un conjunto de pasos que deben completarse para garantizar la **integridad de los datos**. Sigue un ciclo de vida estructurado para evitar inconsistencias.  
 
 ### 📌 **Fases de una Transacción**  
 
-1️⃣ **Inicio (BEGIN TRANSACTION)**  
+1️⃣ **Inicio (`BEGIN TRANSACTION`)**  
    🔹 La transacción comienza y el sistema bloquea los recursos necesarios.  
 
 2️⃣ **Ejecución de Operaciones**  
@@ -103,21 +103,21 @@ Una **transacción** es un conjunto de pasos que deben completarse para garantiz
 ---
 
 ## 🔹 **Base de Datos OLTP (Online Transaction Processing)**  
-Es un tipo de **Base de datos**, optimizada para manejar transacciones en **tiempo real**.
+Es un tipo de **base de datos**, optimizada para manejar transacciones en **tiempo real**.  
 
-✅ **Caracteristicas:**  
-- Maneja operaciones rápidas y frecuentes (inserciones, actualizaciones, eliminaciones.
-- Se usa en sistemas como bancos, e-commerce, aplicaciones de punto de venta (POS).
+✅ **Características:**  
+- Maneja operaciones rápidas y frecuentes (*inserciones, actualizaciones, eliminaciones*).  
+- Se usa en sistemas como bancos, e-commerce y aplicaciones de punto de venta (*POS*).  
 
 📌 **Ejemplo:**  
-Cuando compras en linea, el un **e-commerce**, dicho aplicativo, usa una OLTP, para registrar y actualizar el inventario.
+Cuando compras en línea en un **e-commerce**, este sistema usa una **OLTP** para registrar y actualizar el inventario en tiempo real.  
 
 ---
 
-## 🔹 **¿Qué es un ACID y como se relaciona con una OLTP?** 
-ACID es un conjunto de propiedades que garantizan que una base de datos transaccional sea **confiable y segura**. Estas propiedades son esenciales en sistemas que manejan muchas transacciones en tiempo real, como los bancos o e-commerce.
+## 🔹 **¿Qué es ACID y cómo se relaciona con una OLTP?**  
+ACID es un conjunto de propiedades que garantizan que una base de datos transaccional sea **confiable y segura**. Estas propiedades son esenciales en sistemas que manejan muchas transacciones en tiempo real, como los bancos o e-commerce.  
 
-## 🔹 Propiedades ACID  
+## 🔹 **Propiedades ACID**  
 
 1️⃣ **Atomicidad**  
 👉 Una transacción es **todo o nada**. Si falla, se revierte todo para evitar datos corruptos.  
@@ -135,8 +135,9 @@ ACID es un conjunto de propiedades que garantizan que una base de datos transacc
 👉 Una vez confirmada, una transacción **se guarda permanentemente**, incluso tras un fallo del sistema.  
 🔹 *Ejemplo:* Si un banco confirma una transferencia y hay un apagón, el dinero sigue en la cuenta destino.  
 
+---
 
-  # 🛠️ **¿Qué son los Linters y para qué se usan?**  
+# 🛠️ **¿Qué son los Linters y para qué se usan?**  
 
 Los **linters** son herramientas que analizan el código en busca de errores, malas prácticas y problemas de estilo. Su objetivo es mejorar la calidad y mantenibilidad del código.  
 
