@@ -61,14 +61,14 @@
         <mxCell id="uiOcUS1UXc89rVokBoGU-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uiOcUS1UXc89rVokBoGU-2" target="uiOcUS1UXc89rVokBoGU-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uiOcUS1UXc89rVokBoGU-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uiOcUS1UXc89rVokBoGU-28" target="uiOcUS1UXc89rVokBoGU-6">
+        <mxCell id="uiOcUS1UXc89rVokBoGU-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uiOcUS1UXc89rVokBoGU-66" target="uiOcUS1UXc89rVokBoGU-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="uiOcUS1UXc89rVokBoGU-28" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#CC0066;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.lambda;" vertex="1" parent="1">
-          <mxGeometry x="389" y="454" width="78" height="78" as="geometry" />
+          <mxGeometry x="389" y="336" width="78" height="78" as="geometry" />
         </mxCell>
         <mxCell id="uiOcUS1UXc89rVokBoGU-35" value="Almacenamiento" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="398" y="410" width="60" height="30" as="geometry" />
+          <mxGeometry x="398" y="270" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uiOcUS1UXc89rVokBoGU-37" value="Procesamiento" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="239" y="210" width="60" height="30" as="geometry" />
@@ -116,6 +116,33 @@
         </mxCell>
         <mxCell id="uiOcUS1UXc89rVokBoGU-56" value="&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Creación de Catalogos&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="480.5" y="410" width="161" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiOcUS1UXc89rVokBoGU-60" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;image=https://discover.strongdm.com/hs-fs/hubfs/Technology%20Images/apache-superset.png?width=150&amp;height=150&amp;name=apache-superset.png;" vertex="1" parent="1">
+          <mxGeometry x="878.5" y="432" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uiOcUS1UXc89rVokBoGU-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uiOcUS1UXc89rVokBoGU-62" target="uiOcUS1UXc89rVokBoGU-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiOcUS1UXc89rVokBoGU-62" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="889.5" y="584" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="uiOcUS1UXc89rVokBoGU-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uiOcUS1UXc89rVokBoGU-52" target="uiOcUS1UXc89rVokBoGU-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uiOcUS1UXc89rVokBoGU-65" value="S3&amp;nbsp;&lt;div&gt;Results Data&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="898.5" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uiOcUS1UXc89rVokBoGU-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uiOcUS1UXc89rVokBoGU-28" target="uiOcUS1UXc89rVokBoGU-66">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428" y="414" as="sourcePoint" />
+            <mxPoint x="428" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiOcUS1UXc89rVokBoGU-66" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eventbridge;" vertex="1" parent="1">
+          <mxGeometry x="389" y="443" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="uiOcUS1UXc89rVokBoGU-74" value="&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;white-space-collapse: preserve;&quot;&gt;Event Bridge&lt;/span&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="521" width="161" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
